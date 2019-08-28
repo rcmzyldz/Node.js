@@ -10,7 +10,8 @@ function createServer(port) {
 
   const server = http.createServer((request, response) => {
     // TODO: Write your homework code here
-  });
+    response.end(http.server).response.writeHead(200, 'Content-Type'
+  }).listen(8080);
 
   return server;
 }
